@@ -2,7 +2,7 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
-    "start": "deno task lume -s"
+    "start": "deno run --allow-all server.ts"
   },
   "imports": {
     "lume/": "https://deno.land/x/lume@v1.19.1/"
