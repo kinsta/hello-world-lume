@@ -40,24 +40,6 @@ Whenever a deployment is initiated (through creating an application or re-deploy
 </details>
 
 <details>
-<summary><strong>Application Hosting</strong> [click to expand]</summary>
-
-### Dependency Management
-
-Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
-
-### Port
-
-Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application. The `serve` package utilizes the port set by Kinsta automatically.
-
-### Start Command
-
-When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
-
-### Deployment Lifecycle
-
-Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit), the `npm build` command is run, followed by the `npm start` command.
-</details>
 
 ## What is Lume
 Lume is a fast & flexible static site generator for Deno. More information is available on the [lume.land](https://lume.land/) website.
