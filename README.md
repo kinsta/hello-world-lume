@@ -39,7 +39,5 @@ After connecting the repository, **Static Site Hosting** will automatically try 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit), the build command is run, followed by the deployment of the Publish Directory content.
 </details>
 
-<details>
-
 ## What is Lume
 Lume is a fast & flexible static site generator for Deno. More information is available on the [lume.land](https://lume.land/) website.
