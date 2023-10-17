@@ -1,4 +1,4 @@
-![Lume](https://user-images.githubusercontent.com/2342458/230581871-dc3c1c5f-91a2-484c-8b5c-5065a6b99ff0.png)
+![lume](https://github.com/palmiak/hello-world-lume/assets/2342458/51a890fd-053f-492e-b17b-0ce545bdc890)
 # Kinsta - Hello World - Static Site With Lume 🚀
 
 An example of how to deploy a static site built with Lume on Kinsta Hosting.
