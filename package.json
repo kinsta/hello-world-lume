@@ -1,17 +1,13 @@
 {
-  "name": "hello-world-lumen",
+  "name": "hello-world-lume",
   "version": "1.0.0",
   "description": "",
   "main": "_config.js",
   "scripts": {
-    "build": "deno task lume",
-    "start": "serve _site/"
+    "build": "deno task lume"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.1"
-  },
   "devDependencies": {
     "deno-bin": "^1.37.2"
   }

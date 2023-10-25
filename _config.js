@@ -1,12 +1,7 @@
 import lume from "lume/mod.ts";
 
-const port = Deno.env.get("PORT") ? Number(Deno.env.get("PORT")) : 8000;
-const site = lume({
-    server: {
-        port: port
-    }
-});
+const site = lume();
 
-site.ignore("README.md", "CHANGELOG.md", "node_modules");
+site.ignore("README.md");
 
 export default site;
