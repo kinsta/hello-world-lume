@@ -5,13 +5,10 @@
   "main": "_config.js",
   "scripts": {
     "build": "deno task lume",
-    "start": "serve _site/"
+    "start": "npx -y serve _site/"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.1"
-  },
   "devDependencies": {
     "deno-bin": "^1.37.2"
   }

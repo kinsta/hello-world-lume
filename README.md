@@ -1,4 +1,3 @@
-![lume](https://github.com/kinsta/hello-world-lume/assets/2342458/bb3abf15-1ff8-404a-a408-cd56e5d63265)
 # Kinsta - Hello World - Static Site With Lume 🚀
 
 An example of how to deploy a static site built with Lume on Kinsta Hosting.
